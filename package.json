@@ -1,0 +1,16 @@
+{
+  "name": "cf_ai_distsys_tutor",
+  "version": "1.0.0",
+  "description": "AI-powered Distributed Systems tutor on Cloudflare Workers",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250407.0",
+    "typescript": "^5.5.2",
+    "wrangler": "^4.0.0"
+  }
+}

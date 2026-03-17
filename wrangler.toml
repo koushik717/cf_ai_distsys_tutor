@@ -1,0 +1,20 @@
+name = "cf-ai-distsys-tutor"
+main = "src/index.ts"
+compatibility_date = "2025-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "CHAT_SESSION"
+class_name = "ChatSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ChatSession"]
+
+[[workflows]]
+name = "summarize-workflow"
+binding = "SUMMARIZE_WORKFLOW"
+class_name = "SummarizeWorkflow"
