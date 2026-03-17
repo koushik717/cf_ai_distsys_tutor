@@ -1,5 +1,7 @@
 # cf_ai_distsys_tutor
 
+**Live demo:** https://cf-ai-distsys-tutor.venkatakoushik777.workers.dev
+
 An AI-powered Distributed Systems tutor built on Cloudflare. Chat with Llama 3.3 about
 consensus algorithms, consistency models, system design, and distributed architecture.
 Each conversation is stateful and persistent -- your session survives page refreshes and
